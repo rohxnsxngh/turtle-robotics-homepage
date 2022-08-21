@@ -154,7 +154,7 @@
                 Robotics is an interdisciplinary branch of computer science and
                 engineering. Robotics involves design, construction, operation,
                 and use of robots. The goal of robotics is to design machines
-                that can help and assist humans
+                that can help and assist humans.
               </p>
               <!-- <div class="mt-6">
                 <router-link
@@ -214,7 +214,7 @@
                 frameborder="0"
                 allowfullscreen="true"
                 title="Embedded post"
-                class="overflow-hidden hover:overflow-scroll"
+                class="overflow-hidden hover:overflow-scroll md: mx-auto"
               ></iframe>
             </div>
           </div>
@@ -326,33 +326,158 @@
         </ul>
       </div>
 
-      <div
-        class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center"
-      >
-        <!-- <div class="relative">
-          <h3
-            class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl dark:text-white"
-          >
-            A powerful, flexible, and easy-to-use platform.
-          </h3>
-          <p class="mt-3 text-lg text-gray-500 dark:text-gray-300">
-            We care deeply about community connections and the people who use
-            our services. We want to make sure that you have a great experience
-            with us, which is why our Discord community is open to everyone.
-          </p>
-        </div> -->
+      <div class="relative mt-32">
+        <h2
+          class="text-center text-3xl leading-8 font-extrabold tracking-tight dark:text-white text-gray-900 sm:text-4xl"
+        >
+          Long Term Benefits
+        </h2>
 
-        <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
+        <p
+          class="mt-4 max-w-3xl mx-auto text-center text-xl text-yellow-600 dark:text-yellow-600"
+        >
+          Dedicated members of TURTLE have the most to gain. Here are the main
+          benefits you will see as a dedicated member:
+        </p>
+        <ul
+          class="mt-4 list-disc max-w-3xl mx-auto text-left text-l text-gray-500 dark:text-gray-300"
+        >
+          <li>
+            Learn new skills the best way--hands on. Things you will do:
+            research, design, make, communicate.
+          </li>
+          <li>
+            Get experience working with a team. This isn't always a pleasant
+            experience, but it is essential to have. Everyone wants someone who
+            can work well with others.
+          </li>
+          <li>
+            Learn from others. Some of our members have quite a bit of
+            experience they are willing to share with you. Also, members come
+            from all kinds of different majors and technical backgrounds.
+          </li>
+          <li>
+            Become a project leader! You think working with a team is
+            challenging? Try LEADING a team. This is where you learn the most,
+            by the way.
+          </li>
+          <li>
+            Become an officer of TURTLE. Steer the club in new directions and
+            make sure it keeps going strong. Various positions available for
+            experienced members.
+          </li>
+        </ul>
+      </div>
+
+      <iframe
+        width="451"
+        height="801"
+        src="https://www.youtube.com/embed/HZQvRP7qkmQ"
+        title="Finger Prototype V1"
+        frameborder="0"
+        allowfullscreen="true"
+        class="mt-32 mx-auto"
+      ></iframe>
+
+      <div class="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
+        <svg
+          class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
+          width="784"
+          height="404"
+          fill="none"
+          viewBox="0 0 784 404"
+        >
+          <defs>
+            <pattern
+              id="ca9667ae-9f92-4be7-abcb-9e3d727f2941"
+              x="0"
+              y="0"
+              width="20"
+              height="20"
+              patternUnits="userSpaceOnUse"
+            >
+              <rect
+                x="0"
+                y="0"
+                width="4"
+                height="4"
+                class="text-gray-200 dark:text-l-blue-800"
+                fill="currentColor"
+              />
+            </pattern>
+          </defs>
+          <rect
+            width="784"
+            height="404"
+            fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <svg
+      class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
+      width="404"
+      height="784"
+      fill="none"
+      viewBox="0 0 404 784"
+      aria-hidden="true"
+    >
+      <defs>
+        <pattern
+          id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d"
+          x="0"
+          y="0"
+          width="20"
+          height="20"
+          patternUnits="userSpaceOnUse"
+        >
+          <rect
+            x="0"
+            y="0"
+            width="4"
+            height="4"
+            class="text-gray-200 dark:text-l-blue-800"
+            fill="currentColor"
+          />
+        </pattern>
+      </defs>
+      <rect
+        width="404"
+        height="484"
+        fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
+      />
+    </svg>
+
+    <div class="relative mt-12 sm:mt-16 lg:mt-24">
+      <div
+        class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center"
+      >
+        <!-- <div class="lg:col-start-2">
+            <h3
+              class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl dark:text-white"
+            >
+              Stay connected anywhere
+            </h3>
+            <p class="mt-3 text-lg text-gray-500 dark:text-gray-300">
+              Never miss a class again! You can learn from any location, as long
+              as you have an internet connection and a device on hand. And we
+              make it easy for you - just two clicks and boom, you’re in!
+            </p>
+          </div> -->
+
+        <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
           <svg
             class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
             width="784"
             height="404"
             fill="none"
             viewBox="0 0 784 404"
+            aria-hidden="true"
           >
             <defs>
               <pattern
-                id="ca9667ae-9f92-4be7-abcb-9e3d727f2941"
+                id="e80155a9-dfde-425a-b5ea-1f6fadd20131"
                 x="0"
                 y="0"
                 width="20"
@@ -372,102 +497,14 @@
             <rect
               width="784"
               height="404"
-              fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
+              fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
             />
           </svg>
         </div>
       </div>
-
-      <svg
-        class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12"
-        width="404"
-        height="784"
-        fill="none"
-        viewBox="0 0 404 784"
-        aria-hidden="true"
-      >
-        <defs>
-          <pattern
-            id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d"
-            x="0"
-            y="0"
-            width="20"
-            height="20"
-            patternUnits="userSpaceOnUse"
-          >
-            <rect
-              x="0"
-              y="0"
-              width="4"
-              height="4"
-              class="text-gray-200 dark:text-l-blue-800"
-              fill="currentColor"
-            />
-          </pattern>
-        </defs>
-        <rect
-          width="404"
-          height="784"
-          fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
-        />
-      </svg>
-
-      <div class="relative mt-12 sm:mt-16 lg:mt-24">
-        <div
-          class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center"
-        >
-          <!-- <div class="lg:col-start-2">
-            <h3
-              class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl dark:text-white"
-            >
-              Stay connected anywhere
-            </h3>
-            <p class="mt-3 text-lg text-gray-500 dark:text-gray-300">
-              Never miss a class again! You can learn from any location, as long
-              as you have an internet connection and a device on hand. And we
-              make it easy for you - just two clicks and boom, you’re in!
-            </p>
-          </div> -->
-
-          <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
-            <svg
-              class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden"
-              width="784"
-              height="404"
-              fill="none"
-              viewBox="0 0 784 404"
-              aria-hidden="true"
-            >
-              <defs>
-                <pattern
-                  id="e80155a9-dfde-425a-b5ea-1f6fadd20131"
-                  x="0"
-                  y="0"
-                  width="20"
-                  height="20"
-                  patternUnits="userSpaceOnUse"
-                >
-                  <rect
-                    x="0"
-                    y="0"
-                    width="4"
-                    height="4"
-                    class="text-gray-200 dark:text-l-blue-800"
-                    fill="currentColor"
-                  />
-                </pattern>
-              </defs>
-              <rect
-                width="784"
-                height="404"
-                fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
+
   <div class="bg-cool-gray dark:bg-russian-black">
     <div
       class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:pb-32"
@@ -500,7 +537,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {};
 </script>
 

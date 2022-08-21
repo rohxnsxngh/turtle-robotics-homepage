@@ -4,7 +4,7 @@ import Navbar from './components/Navbar.vue';
 </script>
 
 <template>
-  <div class="bg-black">
+  <div class="bg-black overflow-x-hidden">
     <Navbar />
     <router-view></router-view>
   </div>
