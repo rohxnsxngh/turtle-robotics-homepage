@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from '../components/HelloWorld.vue';
+import HeroSection from '../components/HeroSection.vue';
+import AboutComponent from '../components/AboutComponent.vue';
+
 </script>
 
 <template>
-  <img alt="Vue logo" src="../assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vuex + Vue Router + TypeScript + Vite" />
+  <HeroSection/>
+  <AboutComponent/>
 </template>
