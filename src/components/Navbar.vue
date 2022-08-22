@@ -75,29 +75,29 @@
           </div>
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
-              <a
-                href="/"
+              <router-link
+                to="/"
                 class="text-gray-300 hover:bg-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 aria-current="page"
-                >Home</a
+                >Home</router-link
               >
 
-              <a
-                href="/about"
+              <router-link
+                to="/about"
                 class="text-gray-300 hover:bg-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >News</a
+                >News</router-link
               >
 
-              <a
-                href="#"
+              <router-link
+                to="/sponsors"
                 class="text-gray-300 hover:bg-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >Sponsors</a
+                >Sponsors</router-link
               >
 
-              <a
-                href="#"
+              <router-link
+                to="/contact"
                 class="text-gray-300 hover:bg-black hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >Contact</a
+                >Contact</router-link
               >
             </div>
           </div>
@@ -115,29 +115,29 @@
     <div class="sm:hidden" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <a
-          href="#"
+        <router-link
+          to="/"
           class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
           aria-current="page"
-          >Home</a
+          >Home</router-link
         >
 
-        <a
-          href="#"
+        <router-link
+          to="/about"
           class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >News</a
+          >News</router-link
         >
 
-        <a
-          href="#"
+        <router-link
+          to="/sponsors"
           class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >Sponsors</a
+          >Sponsors</router-link
         >
 
-        <a
-          href="#"
+        <router-link
+          to="/contact"
           class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >Contact</a
+          >Contact</router-link
         >
       </div>
     </div>

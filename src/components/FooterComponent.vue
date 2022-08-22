@@ -1,80 +1,90 @@
 <template>
-  <footer
-    class="bg-black dark:bg-russian-black border-t border-gray-200 dark:border-gray-600"
-    aria-labelledby="footer-heading"
-  >
-    <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="max-w-7xl mx-auto pb-8 px-4 sm:px-6 lg:px-8">
-      <div class="xl:grid xl:grid-cols-3 xl:gap-8 py-8">
-        <div class="space-y-8 xl:col-span-1">
-          <div
-            class="flex items-center text-base font-medium rounded-lg dark:shadow-l-blue-800 text-gray-400 dark:text-gray-100"
-          >
-            <span class="sr-only">T.U.R.T.L.E</span>
-            <img
-              class="rounded-lg h-10 w-auto sm:h-10 lg:h-10 grayscale pr-4"
-              src="../assets/turtleIcon.jpg"
-              alt=""
-            />
-            Texas A&M University Robotics Team and Leadership Experience
-          </div>
-          <p class="text-gray-400 text-base">
-            Creating the world's future one student at a time.
-          </p>
-          <div class="flex space-x-6">
-            <router-link
-              v-for="item in navigation.social"
-              :key="item.name"
-              :to="item.href"
-              class="text-gray-400 hover:text-gray-500"
+  <div>
+    <footer
+      class="bg-black dark:bg-russian-black border-t border-gray-200 dark:border-gray-600"
+      aria-labelledby="footer-heading"
+    >
+      <h2 id="footer-heading" class="sr-only">Footer</h2>
+      <div class="max-w-7xl mx-auto pb-8 px-4 sm:px-6 lg:px-8">
+        <div class="xl:grid xl:grid-cols-3 xl:gap-8 py-8">
+          <div class="space-y-8 xl:col-span-1">
+            <div
+              class="flex items-center text-base font-medium rounded-lg dark:shadow-l-blue-800 text-gray-400 dark:text-gray-100"
             >
-              <span class="sr-only">{{ item.name }}</span>
-              <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
-            </router-link>
+              <span class="sr-only">T.U.R.T.L.E</span>
+              <img
+                class="rounded-lg h-10 w-auto sm:h-10 lg:h-10 grayscale pr-4"
+                src="../assets/turtleIcon.jpg"
+                alt=""
+              />
+              Texas A&M University Robotics Team and Leadership Experience
+            </div>
+            <p class="text-gray-400 text-base">
+              Creating the world's future one student at a time.
+            </p>
+            <div class="flex space-x-6">
+              <router-link
+                v-for="item in navigation.social"
+                :key="item.name"
+                :to="item.href"
+                class="text-gray-400 hover:text-gray-500"
+              >
+                <span class="sr-only">{{ item.name }}</span>
+                <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+              </router-link>
+            </div>
+          </div>
+          <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
+            <div class="md:grid md:grid-cols-2 md:gap-8">
+              <div>
+                <router-link to="/">
+                <h3
+                  class="text-sm font-semibold text-gray-400 tracking-wider uppercase hover:text-white cursor-pointer"
+                >
+                  Home
+                </h3>
+                </router-link>
+              </div>
+              <div class="mt-12 md:mt-0">
+                <router-link to="/about">
+                <h3
+                  class="text-sm font-semibold text-gray-400 tracking-wider uppercase hover:text-white cursor-pointer"
+                >
+                  News
+                </h3>
+                </router-link>
+              </div>
+            </div>
+            <div class="md:grid md:grid-cols-2 md:gap-8">
+              <div>
+                <router-link to="/sponsors">
+                <h3
+                  class="text-sm font-semibold text-gray-400 tracking-wider uppercase hover:text-white cursor-pointer"
+                >
+                  Sponsors
+                </h3>
+                </router-link>
+              </div>
+              <div class="mt-12 md:mt-0">
+                <router-link to="/contact">
+                <h3
+                  class="text-sm font-semibold text-gray-400 tracking-wider uppercase hover:text-white cursor-pointer"
+                >
+                  Contact
+                </h3>
+                </router-link>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
-          <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3
-                class="text-sm font-semibold text-gray-400 tracking-wider uppercase hover:text-white cursor-pointer"
-              >
-                Home
-              </h3>
-            </div>
-            <div class="mt-12 md:mt-0">
-              <h3
-                class="text-sm font-semibold text-gray-400 tracking-wider uppercase hover:text-white cursor-pointer"
-              >
-                News
-              </h3>
-            </div>
-          </div>
-          <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3
-                class="text-sm font-semibold text-gray-400 tracking-wider uppercase hover:text-white cursor-pointer"
-              >
-                Sponsors
-              </h3>
-            </div>
-            <div class="mt-12 md:mt-0">
-              <h3
-                class="text-sm font-semibold text-gray-400 tracking-wider uppercase hover:text-white cursor-pointer"
-              >
-                Contact
-              </h3>
-            </div>
-          </div>
+        <div class="border-t border-gray-200 pt-8">
+          <p class="text-base text-gray-400 xl:text-center">
+            &copy; 2022 Texas A&M T.U.R.T.L.E
+          </p>
         </div>
       </div>
-      <div class="border-t border-gray-200 pt-8">
-        <p class="text-base text-gray-400 xl:text-center">
-          &copy; 2022 Texas A&M T.U.R.T.L.E
-        </p>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </template>
 
 <script setup lang="ts">

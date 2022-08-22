@@ -64,12 +64,12 @@
             >
               Texas A&M University Robotics Team and Leadership Experience
             </p>
-            <button
-              href="/#"
+            <router-link
+              to="/about"
               class="mt-3 w-full px-6 py-3 border dark:border-t-l-blue-500 border-transparent text-base font-medium border-t-2 border-t-l-blue-300 rounded-md text-white bg-yellow-600 shadow-sm hover:bg-l-blue-600 hover:border-t-l-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-l-blue-100 sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto"
             >
               Get Started
-            </button>
+            </router-link>
           </div>
           <div
             class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center"

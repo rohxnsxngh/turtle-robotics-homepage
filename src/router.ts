@@ -18,16 +18,16 @@ export const routes: Array<RouteRecordRaw> = [
     name: 'About',
     component: About,
   },
-  // {
-  //   path: '/sponsors',
-  //   name: 'Sponsors',
-  //   component: Sponsor,
-  // },
-  // {
-  //   path: '/contact',
-  //   name: 'Contact',
-  //   component: Contact,
-  // },
+  {
+    path: '/sponsors',
+    name: 'Sponsors',
+    component: Sponsor,
+  },
+  {
+    path: '/contact',
+    name: 'Contact',
+    component: Contact,
+  },
 ];
 
 export const router = createRouter({

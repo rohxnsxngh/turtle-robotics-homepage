@@ -33,7 +33,6 @@
           class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0"
         >
           <div>
-            <div></div>
             <div class="mt-6">
               <h2
                 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100"
@@ -52,7 +51,7 @@
               </p>
               <div class="mt-6">
                 <router-link
-                  to="#"
+                  to="/about"
                   class="mt-3 w-full px-6 py-3 border hover:dark:bg-yellow-600 border-transparent text-base font-medium border-t-2 border-t-l-blue-300 dark:border-t-l-blue-800 hover:dark:border-t-blue rounded-md text-white dark:bg-yellow-600 bg-l-blue-500 shadow-sm hover:bg-l-blue-600 hover:border-t-l-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-l-blue-900 focus:ring-l-blue-100"
                 >
                   Get Started
@@ -518,7 +517,7 @@
       <div class="mt-8 flex justify-center">
         <div class="inline-flex rounded-md shadow">
           <router-link
-            to="#"
+            to="/about"
             class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-700 hover:bg-l-blue-800"
           >
             Get Started
@@ -526,7 +525,7 @@
         </div>
         <div class="ml-3 inline-flex">
           <router-link
-            to="#"
+            to="/sponsors"
             class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-yellow-400 hover:bg-l-blue-200"
           >
             Learn More
