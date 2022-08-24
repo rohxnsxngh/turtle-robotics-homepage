@@ -4,6 +4,6 @@ import eslintPlugin from 'vite-plugin-eslint';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/turtle-robotics-homepage/',
+  // base: '/turtle-robotics-homepage/',
   plugins: [vue(), eslintPlugin()],
 });
