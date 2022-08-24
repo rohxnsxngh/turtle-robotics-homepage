@@ -16,7 +16,7 @@
       <p
         class="max-w-xl mt-24 mx-left text-xl text-gray-500 dark:text-gray-300"
       >
-        Contact
+        Please send us an email at turtlerobotics@gmail.com
       </p>
       <div class="mt-12">
       </div>

@@ -10,6 +10,7 @@
             class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
             aria-controls="mobile-menu"
             aria-expanded="false"
+            @click="viewMenu =  !viewMenu"
           >
             <span class="sr-only">Open main menu</span>
             <!--
@@ -63,12 +64,12 @@
         >
           <div class="flex-shrink-0 flex items-center">
             <img
-              class="block lg:hidden h-8 w-auto"
+              class="rounded-full block lg:hidden h-8 w-auto rounded-full"
               src="../assets/turtleIcon.jpg"
               alt="Workflow"
             />
             <img
-              class="hidden lg:block h-8 w-auto"
+              class="rounded-full hidden lg:block h-8 w-auto"
               src="../assets/turtleIcon.jpg"
               alt="Workflow"
             />
@@ -113,11 +114,11 @@
 
     <!-- Mobile menu, show/hide based on menu state. -->
     <div class="sm:hidden" id="mobile-menu">
-      <div class="px-2 pt-2 pb-3 space-y-1">
+      <div class="px-2 pt-2 pb-3 space-y-1" v-if="viewMenu">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
         <router-link
           to="/"
-          class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+          class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           aria-current="page"
           >Home</router-link
         >
@@ -145,7 +146,13 @@
 </template>
 
 <script lang="ts">
-export default {};
+export default {
+  data() {
+    return {
+      viewMenu: false,
+    }
+  }
+};
 </script>
 
 <style></style>
