@@ -155,14 +155,14 @@
                 and use of robots. The goal of robotics is to design machines
                 that can help and assist humans.
               </p>
-              <!-- <div class="mt-6">
+              <div class="mt-6">
                 <router-link
                   to="#"
                   class="mt-3 w-full px-6 py-3 border hover:dark:bg-yellow-600 border-transparent text-base font-medium border-t-2 border-t-l-blue-300 dark:border-t-l-blue-800 hover:dark:border-t-blue rounded-md text-white dark:bg-yellow-600 bg-l-blue-500 shadow-sm hover:bg-l-blue-600 hover:border-t-l-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-l-blue-900 focus:ring-l-blue-100"
                 >
                   Learn More
                 </router-link>
-              </div> -->
+              </div>
             </div>
           </div>
         </div>
@@ -206,15 +206,15 @@
             <div
               class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
             >
-              <iframe
+              <!-- <iframe
                 src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6584893731550359552"
                 height="684"
                 width="684"
                 frameborder="0"
                 allowfullscreen="true"
                 title="Embedded post"
-                class="overflow-hidden hover:overflow-scroll md: mx-auto"
-              ></iframe>
+                class="overflow-hidden"
+              ></iframe> -->
             </div>
           </div>
         </div>
